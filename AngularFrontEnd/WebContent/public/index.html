@@ -7,9 +7,17 @@
 	</head>
 
 	<body>
-		<div ng-controller="Hello">
+	
+		
+		<div ng-controller="Account">
+			<p>The Account is {{account.acct_num}}</p>
+			<p>The content is {{account.route_num}}</p>
+		</div>
+		
+	  	<div ng-controller="Hello">
 			<p>The ID is {{greeting.id}}</p>
 			<p>The content is {{greeting.content}}</p>
 		</div>
+		
 	</body>
 </html>
